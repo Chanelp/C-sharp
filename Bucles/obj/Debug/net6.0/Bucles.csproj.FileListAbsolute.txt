@@ -1,0 +1,15 @@
+D:\IntroCSharp\Bucles\bin\Debug\net6.0\Bucles.exe
+D:\IntroCSharp\Bucles\bin\Debug\net6.0\Bucles.deps.json
+D:\IntroCSharp\Bucles\bin\Debug\net6.0\Bucles.runtimeconfig.json
+D:\IntroCSharp\Bucles\bin\Debug\net6.0\Bucles.dll
+D:\IntroCSharp\Bucles\bin\Debug\net6.0\Bucles.pdb
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.csproj.AssemblyReference.cache
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.GeneratedMSBuildEditorConfig.editorconfig
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.AssemblyInfoInputs.cache
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.AssemblyInfo.cs
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.csproj.CoreCompileInputs.cache
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.dll
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\refint\Bucles.dll
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.pdb
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\Bucles.genruntimeconfig.cache
+D:\IntroCSharp\Bucles\obj\Debug\net6.0\ref\Bucles.dll

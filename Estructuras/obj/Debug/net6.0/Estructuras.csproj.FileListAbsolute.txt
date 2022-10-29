@@ -1,0 +1,15 @@
+D:\IntroCSharp\Estructuras\bin\Debug\net6.0\Estructuras.exe
+D:\IntroCSharp\Estructuras\bin\Debug\net6.0\Estructuras.deps.json
+D:\IntroCSharp\Estructuras\bin\Debug\net6.0\Estructuras.runtimeconfig.json
+D:\IntroCSharp\Estructuras\bin\Debug\net6.0\Estructuras.dll
+D:\IntroCSharp\Estructuras\bin\Debug\net6.0\Estructuras.pdb
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.csproj.AssemblyReference.cache
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.GeneratedMSBuildEditorConfig.editorconfig
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.AssemblyInfoInputs.cache
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.AssemblyInfo.cs
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.csproj.CoreCompileInputs.cache
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.dll
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\refint\Estructuras.dll
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.pdb
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\Estructuras.genruntimeconfig.cache
+D:\IntroCSharp\Estructuras\obj\Debug\net6.0\ref\Estructuras.dll

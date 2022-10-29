@@ -1,0 +1,15 @@
+D:\IntroCSharp\Hello World\bin\Debug\net6.0\Hello World.exe
+D:\IntroCSharp\Hello World\bin\Debug\net6.0\Hello World.deps.json
+D:\IntroCSharp\Hello World\bin\Debug\net6.0\Hello World.runtimeconfig.json
+D:\IntroCSharp\Hello World\bin\Debug\net6.0\Hello World.dll
+D:\IntroCSharp\Hello World\bin\Debug\net6.0\Hello World.pdb
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.csproj.AssemblyReference.cache
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.GeneratedMSBuildEditorConfig.editorconfig
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.AssemblyInfoInputs.cache
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.AssemblyInfo.cs
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.csproj.CoreCompileInputs.cache
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.dll
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\refint\Hello World.dll
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.pdb
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\Hello World.genruntimeconfig.cache
+D:\IntroCSharp\Hello World\obj\Debug\net6.0\ref\Hello World.dll
