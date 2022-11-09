@@ -1,0 +1,15 @@
+D:\IntroCSharp\Math\bin\Debug\net6.0\Math.exe
+D:\IntroCSharp\Math\bin\Debug\net6.0\Math.deps.json
+D:\IntroCSharp\Math\bin\Debug\net6.0\Math.runtimeconfig.json
+D:\IntroCSharp\Math\bin\Debug\net6.0\Math.dll
+D:\IntroCSharp\Math\bin\Debug\net6.0\Math.pdb
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.csproj.AssemblyReference.cache
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.GeneratedMSBuildEditorConfig.editorconfig
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.AssemblyInfoInputs.cache
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.AssemblyInfo.cs
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.csproj.CoreCompileInputs.cache
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.dll
+D:\IntroCSharp\Math\obj\Debug\net6.0\refint\Math.dll
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.pdb
+D:\IntroCSharp\Math\obj\Debug\net6.0\Math.genruntimeconfig.cache
+D:\IntroCSharp\Math\obj\Debug\net6.0\ref\Math.dll

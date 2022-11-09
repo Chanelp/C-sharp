@@ -1,11 +1,14 @@
 ﻿/*
  * Estrucutras de toma de deciciones: BUCLES.
- * While, do... while, for
- * 
+ * While, do... while, for, foreach
+ * Otra técnica esencial al momento de escribir código es el Looping o bucle 
+ * (la habilidad de repetir un bloque de código X veces). 
+ * En C#, estos vienen 4 variantes distintas, y veremos a cada una de estas.
  */
 
 using System.Globalization;
 
+//WHILE
 int intento = 0;
 
 while(intento <= 10) {
@@ -21,10 +24,13 @@ while(intento <= 10) {
 
 Console.Write($"\nValor de intento después del bucle {intento}\n");
 
+
+//FOR
 for(int x = 0; x <= 5; x++)
 {
     Console.Write(x + " ");
 }
+
 
 //Do... while
 int intento2 = 5;
@@ -34,6 +40,7 @@ do{
     intento2+= 5;
 } while (intento2 <= 10);
 
+
 //FOREACH
 var names = new List<string> { "Juan", "Martin", "Alan" };
 
@@ -42,7 +49,8 @@ foreach(var name in names)
     Console.WriteLine($"El nombre actual es: {name.ToUpper()}");
 }
 
-//Sumar los 100 primeros numeros enteros
+
+//EJERCICIO: Sumar los 100 primeros numeros enteros
 int numbers = 0;
 int suma = 0;
 
@@ -53,7 +61,8 @@ for (numbers = 0; numbers <= 100; numbers++)
 
 Console.WriteLine(suma);
 
-//Expandir: el usuario indique hasta donde sumar
+
+//EXPANDIR: el usuario indique hasta donde sumar
 int resultado = 0;
 int j = 0;
 
@@ -66,6 +75,7 @@ for (j = 0; j <= limite; j++)
 }
 
 Console.WriteLine($"La suma hasta el numero ingresado es: {resultado}");
+
 
 //Escribir todos los elementos de un array
 int[] arreglo = new int[3];
@@ -99,7 +109,7 @@ Escribe una tabla de multiplicar del 1 al 10 para un número entero que recibe p
 1 x 2 = 2
 …
 1 x 10 = 10
- */
+ 
 
 int number = 0;
 Console.WriteLine("Ingresa el # de la tabla");
@@ -121,7 +131,7 @@ Reciba al menos un número por consola
 Determine si el número es positivo o negativo
 
 Presente un contador para cada tipo (positivo y negativo).
- */
+ 
 
 int numero = 0;
 int contador = 0;
@@ -144,7 +154,7 @@ do {
 
     contador++;
 
-} while (contador == 0);
+} while (contador == 0);*/
 
 /*Ejercicio 3 - For
 
@@ -172,12 +182,13 @@ Output:
 * *
 * *
 ***
- */
-/*
+ 
+ MY SOLUTION*/
+
 Console.WriteLine("Ingrese el alto");
-int ancho = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Ingrese el ancho");
 int alto = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ingrese el ancho");
+int ancho = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Relleno o no");
 bool relleno = Convert.ToBoolean(Console.ReadLine());
 Console.WriteLine("Cuantas figuras?");
@@ -185,15 +196,17 @@ int cantidad = Convert.ToInt32(Console.ReadLine());
 
 for(int h = 0; h < alto; h++)
 {
-    for(int w = 0; w < ancho; w++)
+    for(int w = 1; w < ancho; w++)
     {
-        Console.Write("*");
+        Console.Write('*');
     }
-    Console.WriteLine("*");
-}*/
+    Console.WriteLine('*');
+}
+
+
 // Exercise 3 For
 
-Console.WriteLine("\n-----Drawing a rectangle-----\n");
+/*Console.WriteLine("\n-----Drawing a rectangle-----\n");
 Console.Write("Insert the height (number): ");
 int height = Convert.ToInt32(Console.ReadLine());
 Console.Write("Insert the width (number): ");
@@ -220,4 +233,4 @@ for (int i = 0; i < height; i++)
         }
     }
     Console.Write("\n");
-};
+};*/

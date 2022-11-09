@@ -1,0 +1,15 @@
+D:\IntroCSharp\ControlStructures\bin\Debug\net6.0\ControlStructures.exe
+D:\IntroCSharp\ControlStructures\bin\Debug\net6.0\ControlStructures.deps.json
+D:\IntroCSharp\ControlStructures\bin\Debug\net6.0\ControlStructures.runtimeconfig.json
+D:\IntroCSharp\ControlStructures\bin\Debug\net6.0\ControlStructures.dll
+D:\IntroCSharp\ControlStructures\bin\Debug\net6.0\ControlStructures.pdb
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.csproj.AssemblyReference.cache
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.GeneratedMSBuildEditorConfig.editorconfig
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.AssemblyInfoInputs.cache
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.AssemblyInfo.cs
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.csproj.CoreCompileInputs.cache
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.dll
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\refint\ControlStructures.dll
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.pdb
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ControlStructures.genruntimeconfig.cache
+D:\IntroCSharp\ControlStructures\obj\Debug\net6.0\ref\ControlStructures.dll
