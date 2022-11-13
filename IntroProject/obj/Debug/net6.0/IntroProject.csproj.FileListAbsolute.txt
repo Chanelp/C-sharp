@@ -1,0 +1,15 @@
+D:\IntroCSharp\IntroProject\bin\Debug\net6.0\IntroProject.exe
+D:\IntroCSharp\IntroProject\bin\Debug\net6.0\IntroProject.deps.json
+D:\IntroCSharp\IntroProject\bin\Debug\net6.0\IntroProject.runtimeconfig.json
+D:\IntroCSharp\IntroProject\bin\Debug\net6.0\IntroProject.dll
+D:\IntroCSharp\IntroProject\bin\Debug\net6.0\IntroProject.pdb
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.csproj.AssemblyReference.cache
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.AssemblyInfoInputs.cache
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.AssemblyInfo.cs
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.csproj.CoreCompileInputs.cache
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.dll
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\refint\IntroProject.dll
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.pdb
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\IntroProject.genruntimeconfig.cache
+D:\IntroCSharp\IntroProject\obj\Debug\net6.0\ref\IntroProject.dll
