@@ -1,0 +1,15 @@
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.csproj.AssemblyReference.cache
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.GeneratedMSBuildEditorConfig.editorconfig
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.AssemblyInfoInputs.cache
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.AssemblyInfo.cs
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.csproj.CoreCompileInputs.cache
+D:\IntroCSharp\CoreEscuela\bin\Debug\net6.0\CoreEscuela.exe
+D:\IntroCSharp\CoreEscuela\bin\Debug\net6.0\CoreEscuela.deps.json
+D:\IntroCSharp\CoreEscuela\bin\Debug\net6.0\CoreEscuela.runtimeconfig.json
+D:\IntroCSharp\CoreEscuela\bin\Debug\net6.0\CoreEscuela.dll
+D:\IntroCSharp\CoreEscuela\bin\Debug\net6.0\CoreEscuela.pdb
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.dll
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\refint\CoreEscuela.dll
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.pdb
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\CoreEscuela.genruntimeconfig.cache
+D:\IntroCSharp\CoreEscuela\obj\Debug\net6.0\ref\CoreEscuela.dll
