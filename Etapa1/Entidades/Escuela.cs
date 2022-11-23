@@ -24,10 +24,18 @@ namespace CoreEscuela.Entidades
             AñoCreacion = año;
         }
 
+        //Parámetros opcionales
+        //Firma: qué valor devuelve, que nombre tiene y qué parámetro recibe
+        public Escuela(string nombre, int año, TipoEscuela tipo, string pais = "", string ciudad =""){
+            (Nombre, AñoCreacion, TipoEscuela) = (nombre, año, tipo);
+            Pais = pais;
+            Ciudad = ciudad;
+        }
+
         //Sobreescribir método ToString()
         public override string ToString()
         {
-            return $"Nombre: {Nombre}, Tipo: {TipoEscuela} \n Pais: {Pais}, Año Creación: {AñoCreacion}, Ciudad: {Ciudad}";
+            return $"Nombre: \"{Nombre}\", Tipo: {TipoEscuela} \n Pais: {Pais}, Año Creación: {AñoCreacion}, {System.Environment.NewLine} Ciudad: {Ciudad}";
         }
 
         /*
