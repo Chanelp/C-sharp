@@ -17,8 +17,35 @@ var curso3 = new Curso(){
     Nombre = "301"
 };
 
+//crear arreglo de objetos
+var arregloCursos = new Curso[3]; 
+arregloCursos[0] = new Curso() {
+    Nombre = "101"
+};
+arregloCursos[1] = curso2;
+arregloCursos[2] = new Curso {Nombre = "301"};
+
+
 Console.WriteLine(escuela);
 System.Console.WriteLine(new String('=', 50));
-Console.WriteLine(curso1.Nombre + " , " + curso1.UniqueId);
-Console.WriteLine(curso2.Nombre + " , " + curso2.UniqueId);
-Console.WriteLine($"{curso3.Nombre} , {curso3.UniqueId}");
+ImprimirCusos(arregloCursos);
+
+//Recorrer arreglo de objetos con while
+
+void ImprimirCusos(Curso[] arregloCursos)
+{
+    int contador = 0;
+    while (contador < arregloCursos.Length)
+    {
+        Console.WriteLine($"Nombre: {arregloCursos[contador].Nombre}, ID: {arregloCursos[contador].UniqueId}");
+        contador++;
+    }
+}
+
+//Recorrer arreglo d eobjetos con foreach
+System.Console.WriteLine(new String('=', 50));
+foreach (var curso in arregloCursos)
+{
+    Console.WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.UniqueId}");
+}
+
