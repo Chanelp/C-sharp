@@ -1,23 +1,10 @@
 ﻿using CoreEscuela.Entidades;
+using static System.Console;
 
 var escuela = new Escuela("ITLA", 2000, TipoEscuela.Secundaria);
 escuela.Pais = "Dominican Republic";
 escuela.Ciudad = "Santo Domingo";
 //miEscuela.TipoEscuela = TipoEscuela.Primaria;
-
-//crear arreglo de objetos
-var arregloCursos = new Curso[3]{
-    new Curso(){ Nombre = "101" },
-    new Curso(){ Nombre = "201" },
-    new Curso(){ Nombre = "301" }
-};
-
-//crear arreglo de objetos optimizado
-Curso[] arregloCursosOptimizado = {
-    new Curso(){ Nombre = "101" },
-    new Curso(){ Nombre = "201" },
-    new Curso(){ Nombre = "301" }
-};
 
 //Otra forma mejor
 escuela.Cursos = new Curso[]{
@@ -26,26 +13,29 @@ escuela.Cursos = new Curso[]{
     new Curso(){ Nombre = "301" }
 };
 
-escuela.Cursos = arregloCursos;
+ImprimirCusosEscuela(escuela);
 
-Console.WriteLine(escuela);
-System.Console.WriteLine(new String('=', 50));
-ImprimirCusos(arregloCursos);
-
-//Recorrer arreglo de objetos con while
-void ImprimirCusos(Curso[] arregloCursos)
+void ImprimirCusosEscuela(Escuela escuela)
 {
-    int contador = 0;
-    while (contador < arregloCursos.Length)
+    WriteLine(new String('=', 40));
+    WriteLine("Cursos de la Escuela");
+    WriteLine(new String('=', 40));
+
+    //No voy a verificar cursos, salvo que la escuela sea distinta de null
+    if (escuela?.Cursos != null)
     {
-        Console.WriteLine($"Nombre: {arregloCursos[contador].Nombre}, ID: {arregloCursos[contador].UniqueId}");
-        contador++;
+        foreach (var curso in escuela.Cursos)
+        {
+            WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.UniqueId}");
+        }
     }
-}
 
-//Recorrer arreglo de objetos con foreach
-System.Console.WriteLine(new String('=', 50));
-foreach (var curso in arregloCursos)
-{
-    Console.WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.UniqueId}");
+    /*//Cortocircuito de evaluación de expresiones
+    if (escuela != null && escuela.Cursos != null)
+    {
+        foreach (var curso in escuela.Cursos)
+        {
+            WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.UniqueId}");
+        }
+    }*/
 }
