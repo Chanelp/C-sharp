@@ -16,13 +16,16 @@ namespace CoreEscuela.Entidades
         public string Pais { get; set; }
         public string Ciudad { get; set; }
         public TipoEscuela TipoEscuela;
+        public Curso[] Cursos {get; set;}
 
         //Constructor, método que inicializa el objeto
-        public Escuela(string nombre, int año)
+        public Escuela(string nombre, int año) => (Nombre, AñoCreacion) = (nombre, año);
+        
+        /*public Escuela(string nombre, int año)
         {
             this.nombre = nombre;
             AñoCreacion = año;
-        }
+        }*/
 
         //Parámetros opcionales
         //Firma: qué valor devuelve, que nombre tiene y qué parámetro recibe
