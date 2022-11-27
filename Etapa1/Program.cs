@@ -22,31 +22,31 @@ escuela.Cursos.Add(new Curso{ Nombre = "202", Jornada = TipoJornada.Tarde} );
 var otraColeccion =  new List<Curso> () {
     new Curso(){ Nombre = "401", Jornada = TipoJornada.Mañana },
     new Curso(){ Nombre = "501", Jornada = TipoJornada.Mañana },
-    new Curso(){ Nombre = "502", Jornada = TipoJornada.Tarde }
+    new Curso(){ Nombre = "501", Jornada = TipoJornada.Tarde }
 };
 
-//Curso tmp = new Curso{Nombre = "101-Vacacional", Jornada = TipoJornada.Noche};
-
-//AddRange(lista) - Adicionar otra colección
-//escuela.Cursos.Add(tmp);
+//Métodos para agregar y eliminar
 escuela.Cursos.AddRange(otraColeccion);
 ImprimirCusosEscuela(escuela);
-//WriteLine("Curso.Hash " + tmp.GetHashCode());
-//escuela.Cursos.Remove(tmp);
 
-/*Un delegado me específica que parámetro de entrada y salida tiene que tener una función*/
-Predicate<Curso> miAlgoritmo = Predicado; //Delegado
-escuela.Cursos.RemoveAll(Predicado); //Se llamará esta función por cada uno de los objetos en la lista
+// Predicate<Curso> miAlgoritmo = Predicado;
+// escuela.Cursos.RemoveAll(Predicado);
+
+//DELEGADO
+escuela.Cursos.RemoveAll(delegate (Curso cur) {return cur.Nombre == "301";});
+
+//EXPRESIÓN LAMDBA
+escuela.Cursos.RemoveAll(cur => cur.Nombre.Equals("501") && cur.Jornada == TipoJornada.Mañana);
 
 WriteLine(new String('=', 50));
 ImprimirCusosEscuela(escuela);
 
 
 //MËTODOS
-bool Predicado(Curso curobj)
-{
-    return curobj.Nombre == "301";
-}
+// bool Predicado(Curso curobj)
+// {
+//     return curobj.Nombre == "301";
+// }
 
 void ImprimirCusosEscuela(Escuela escuela)
 {
