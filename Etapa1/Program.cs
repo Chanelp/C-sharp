@@ -25,14 +25,28 @@ var otraColeccion =  new List<Curso> () {
     new Curso(){ Nombre = "502", Jornada = TipoJornada.Tarde }
 };
 
-//.Clear() - Remueve todos los elementos de la colección
-otraColeccion.Clear();
+//Curso tmp = new Curso{Nombre = "101-Vacacional", Jornada = TipoJornada.Noche};
 
 //AddRange(lista) - Adicionar otra colección
+//escuela.Cursos.Add(tmp);
 escuela.Cursos.AddRange(otraColeccion);
-
-
 ImprimirCusosEscuela(escuela);
+//WriteLine("Curso.Hash " + tmp.GetHashCode());
+//escuela.Cursos.Remove(tmp);
+
+/*Un delegado me específica que parámetro de entrada y salida tiene que tener una función*/
+Predicate<Curso> miAlgoritmo = Predicado; //Delegado
+escuela.Cursos.RemoveAll(Predicado); //Se llamará esta función por cada uno de los objetos en la lista
+
+WriteLine(new String('=', 50));
+ImprimirCusosEscuela(escuela);
+
+
+//MËTODOS
+bool Predicado(Curso curobj)
+{
+    return curobj.Nombre == "301";
+}
 
 void ImprimirCusosEscuela(Escuela escuela)
 {
