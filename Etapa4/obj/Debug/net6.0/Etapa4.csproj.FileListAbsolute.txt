@@ -1,0 +1,15 @@
+D:\Etapa4\bin\Debug\net6.0\Etapa4.exe
+D:\Etapa4\bin\Debug\net6.0\Etapa4.deps.json
+D:\Etapa4\bin\Debug\net6.0\Etapa4.runtimeconfig.json
+D:\Etapa4\bin\Debug\net6.0\Etapa4.dll
+D:\Etapa4\bin\Debug\net6.0\Etapa4.pdb
+D:\Etapa4\obj\Debug\net6.0\Etapa4.csproj.AssemblyReference.cache
+D:\Etapa4\obj\Debug\net6.0\Etapa4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etapa4\obj\Debug\net6.0\Etapa4.AssemblyInfoInputs.cache
+D:\Etapa4\obj\Debug\net6.0\Etapa4.AssemblyInfo.cs
+D:\Etapa4\obj\Debug\net6.0\Etapa4.csproj.CoreCompileInputs.cache
+D:\Etapa4\obj\Debug\net6.0\Etapa4.dll
+D:\Etapa4\obj\Debug\net6.0\refint\Etapa4.dll
+D:\Etapa4\obj\Debug\net6.0\Etapa4.pdb
+D:\Etapa4\obj\Debug\net6.0\Etapa4.genruntimeconfig.cache
+D:\Etapa4\obj\Debug\net6.0\ref\Etapa4.dll
