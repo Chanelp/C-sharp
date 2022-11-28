@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Etapa4\\Etapa4.csproj",
+      "projectUniqueName": "D:\\IntroCSharp\\Etapa4\\Etapa4.csproj",
       "projectName": "Etapa4",
-      "projectPath": "D:\\Etapa4\\Etapa4.csproj",
+      "projectPath": "D:\\IntroCSharp\\Etapa4\\Etapa4.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Etapa4\\obj\\",
+      "outputPath": "D:\\IntroCSharp\\Etapa4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
