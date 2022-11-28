@@ -8,7 +8,6 @@ using System.Collections.Generic;
 var engine = new EscuelaEngine();
 engine.Inicializar();
 Printer.WriteTitle("BIENVENIDOS A LA ESCUELA");
-Printer.Pitar();
 ImprimirCusosEscuela(engine.Escuela);
 
 Printer.DibujarLinea();

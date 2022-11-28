@@ -7,14 +7,14 @@ namespace CoreEscuela.Entidades
 {
     public class Curso
     {
-        public string UniqueID { get; private set; }
+        public string UniqueId { get; private set; }
         public string Nombre { get; set; }
         public TipoJornada Jornada { get; set; }
         public List<Asignatura> Asignaturas { get; set; }
         public List<Alumno> Alumnos { get; set; }
 
         //Constructor que asigna ID aleatorio
-        public Curso() => UniqueID = Guid.NewGuid().ToString();
+        public Curso() => UniqueId = Guid.NewGuid().ToString();
 
         //Otra forma de generar ID con random
         /*public Curso(){
