@@ -20,11 +20,6 @@ namespace CoreEscuela
 
             CargarCursos();
             CargarAsignaturas();
-
-            foreach(var curso in Escuela.Cursos){
-                curso.Alumnos.AddRange(CargarAlumnos());
-            }
-            
             CargarEvaluaciones();
         }
 
@@ -48,7 +43,7 @@ namespace CoreEscuela
             }
         }
 
-        private IEnumerable<Alumno> CargarAlumnos()
+        private List<Alumno> GenerarAlumnosAlAzar(int cantidad)
         {
             string[] nombre1 = { "Alba", "Felipa", "Eusebio", "Farid", "Donald", "Alvaro", "Nicolás" };
             string[] apellido1 = { "Ruiz", "Sarmiento", "Uribe", "Maduro", "Trump", "Toledo", "Herrera" };
@@ -60,7 +55,7 @@ namespace CoreEscuela
                                from a1 in apellido1
                                select new Alumno{ Nombre = $"{n1} {n2} {a1}" };
             
-            return listaAlumnos;
+            return listaAlumnos.OrderBy((al) => al.uniqueID).Take(cantidad).ToList();
         }
 
         private void CargarCursos()
@@ -73,6 +68,14 @@ namespace CoreEscuela
             new Curso(){ Nombre = "401", Jornada = TipoJornada.Tarde },
             new Curso(){ Nombre = "501", Jornada = TipoJornada.Tarde }
             };
+
+            //Generar entre 5 y 20 alumnos que se van a asignar a cada curso
+            Random rnd = new Random();
+
+            foreach(var c in Escuela.Cursos){
+            int cantRandom = rnd.Next(5,20);
+                c.Alumnos = GenerarAlumnosAlAzar(cantRandom);
+            }
         }
     }
 }
