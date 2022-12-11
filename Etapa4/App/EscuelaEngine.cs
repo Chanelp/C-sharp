@@ -9,7 +9,7 @@ namespace CoreEscuela
     {
         public Escuela Escuela { get; set; }
 
-        public EscuelaEngine(){}
+        public EscuelaEngine() { }
 
         public void Inicializar()
         {
@@ -19,11 +19,32 @@ namespace CoreEscuela
             CargarEvaluaciones();
         }
 
-    /* Por cada Alumno de cada Curso, generar 5 evaluaciones por cada asignatura. 
-    La evaluación debe tener una nota entre 0.0 y 5.0 */
+        /* Por cada Alumno de cada Curso, generar 5 evaluaciones por cada asignatura. 
+        La evaluación debe tener una nota entre 0.0 y 5.0 */
         private void CargarEvaluaciones()
         {
-            throw new NotImplementedException();
+            foreach (var curso in Escuela.Cursos)
+            {
+                foreach (var asignatura in curso.Asignaturas)
+                {
+                    foreach (var alumno in curso.Alumnos)
+                    {
+                        var rnd = new Random(System.Environment.TickCount);
+
+                        for (int i = 0; i < 5; i++)
+                        {
+                            var ev = new Evaluación
+                            {
+                                Asignatura = asignatura,
+                                Nombre = $"{asignatura.Nombre} Ev#{i + 1}",
+                                Nota = (float)(5 * rnd.NextDouble()),
+                                Alumno = alumno
+                            };
+                            alumno.Evaluaciones.Add(ev);
+                        }
+                    }
+                }
+            }
         }
 
         private void CargarAsignaturas()
