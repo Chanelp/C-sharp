@@ -1,28 +1,36 @@
 ﻿using System;
+using System.Collections.Generic;
 using CoreEscuela;
 using CoreEscuela.Entidades;
-using static System.Console;
 using CoreEscuela.Util;
-using System.Collections.Generic;
+using static System.Console;
 
-var engine = new EscuelaEngine();
-engine.Inicializar();
-Printer.WriteTitle("BIENVENIDOS A LA ESCUELA");
-ImprimirCusosEscuela(engine.Escuela);
-
-Printer.DibujarLinea();
-
-//MÉTODOS
-void ImprimirCusosEscuela(Escuela escuela)
+namespace CoreEscuela
 {
-    Printer.WriteTitle("Cursos de la Escuela");
-
-    //No voy a verificar cursos, salvo que la escuela sea distinta de null
-    if (escuela?.Cursos != null)
+    class Program
     {
-        foreach (var curso in escuela.Cursos)
+        static void Main(string[] args)
         {
-            WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.UniqueId}");
+            var engine = new EscuelaEngine();
+            engine.Inicializar();
+            Printer.WriteTitle("BIENVENIDOS A LA ESCUELA");
+            ImprimirCusosEscuela(engine.Escuela);
+            Printer.DibujarLinea();
+        }
+
+        //MÉTODOS
+        private static void ImprimirCusosEscuela(Escuela escuela)
+        {
+            Printer.WriteTitle("Cursos de la Escuela");
+
+            //No va a verificar cursos, salvo que la escuela sea distinta de null
+            if (escuela?.Cursos != null)
+            {
+                foreach (var curso in escuela.Cursos)
+                {
+                    WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.UniqueId}");
+                }
+            }
         }
     }
 }

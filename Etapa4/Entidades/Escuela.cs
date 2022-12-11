@@ -24,8 +24,9 @@ namespace CoreEscuela.Entidades
 
         public Escuela(string nombre, int año) => (Nombre, AñoCreacion) = (nombre, año);
         
-        public Escuela(string nombre, int año, TipoEscuela tipo, string pais = "", string ciudad =""){
-            (Nombre, AñoCreacion, TipoEscuela) = (nombre, año, tipo);
+        public Escuela(string nombre, int año, TipoEscuela tipo, string pais = "", string ciudad ="")
+        {
+            ( Nombre, AñoCreacion, TipoEscuela ) = (nombre, año, tipo);
             Pais = pais;
             Ciudad = ciudad;
         }

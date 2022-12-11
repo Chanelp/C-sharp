@@ -9,36 +9,37 @@ namespace CoreEscuela
     {
         public Escuela Escuela { get; set; }
 
-        public EscuelaEngine()
-        {
-
-        }
+        public EscuelaEngine(){}
 
         public void Inicializar()
         {
             Escuela = new Escuela("ITLA", 2000, TipoEscuela.Secundaria, "República Dominican", "Barahona");
-
             CargarCursos();
             CargarAsignaturas();
-            //CargarEvaluaciones();
+            CargarEvaluaciones();
         }
 
-        /* Por cada Alumno de cada Curso, generar 5 evaluaciones por cada asignatura. 
-        La evaluación debe tener una nota entre 0.0 y 5.0
-        */
-
-        private List<Asignatura> CargarAsignaturas()
+    /* Por cada Alumno de cada Curso, generar 5 evaluaciones por cada asignatura. 
+    La evaluación debe tener una nota entre 0.0 y 5.0 */
+        private void CargarEvaluaciones()
         {
-            Random rnd = new Random();
+            throw new NotImplementedException();
+        }
 
-            var listaAsignaturas = new List<Asignatura>(){
-                            new Asignatura{Nombre="Matemáticas", Evaluacion=Math.Round(rnd.NextDouble() * (5), 1)} ,
-                            new Asignatura{Nombre="Educación Física", Evaluacion=(rnd.NextDouble() * (5))},
-                            new Asignatura{Nombre="Castellano", Evaluacion=(rnd.NextDouble() * (5))},
-                            new Asignatura{Nombre="Ciencias Naturales", Evaluacion=(rnd.NextDouble() * (5))},
-                            new Asignatura{Nombre="Historia", Evaluacion=(rnd.NextDouble() * (5 ))}
-                            };
-            return listaAsignaturas;
+        private void CargarAsignaturas()
+        {
+            foreach (var curso in Escuela.Cursos)
+            {
+                var listaAsignaturas = new List<Asignatura>()
+                {
+                    new Asignatura{Nombre="Matemáticas"} ,
+                    new Asignatura{Nombre="Educación Física"},
+                    new Asignatura{Nombre="Castellano"},
+                    new Asignatura{Nombre="Ciencias Naturales"},
+                    new Asignatura{Nombre="Historia"}
+                };
+                curso.Asignaturas = listaAsignaturas;
+            }
         }
 
         private List<Alumno> GenerarAlumnosAlAzar(int cantidad)
@@ -69,16 +70,10 @@ namespace CoreEscuela
 
             //Generar entre 5 y 20 alumnos que se van a asignar a cada curso
             Random rnd = new Random();
-
             foreach (var curso in Escuela.Cursos)
             {
                 int cantRandom = rnd.Next(5, 20);
                 curso.Alumnos = GenerarAlumnosAlAzar(cantRandom);
-
-                foreach (var alumno in curso.Alumnos)
-                {
-                    alumno.Asignaturas = CargarAsignaturas();//llena asignaturas por alumno
-                }
             }
         }
     }
