@@ -28,7 +28,7 @@ namespace CoreEscuela
             {
                 foreach (var curso in escuela.Cursos)
                 {
-                    WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.UniqueId}");
+                    WriteLine($"NOMBRE -> {curso.Nombre} \n ID -> {curso.uniqueID}");
                 }
             }
         }

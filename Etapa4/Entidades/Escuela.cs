@@ -4,17 +4,8 @@ using System.Collections.Generic;
 
 namespace CoreEscuela.Entidades
 {
-    public class Escuela
+    public sealed class Escuela: ClaseEscuelaBase
     {
-        public string uniqueId = Guid.NewGuid().ToString();
-        string nombre; //Atributo
-
-        public string Nombre
-        { //Propiedades
-            get { return "Copia: " + nombre; }
-            set { nombre = value.ToUpper(); }
-        }
-
         public int AñoCreacion { get; set; }
         public string Pais { get; set; }
         public string Ciudad { get; set; }

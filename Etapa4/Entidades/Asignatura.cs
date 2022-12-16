@@ -5,13 +5,9 @@ using System.Threading.Tasks;
 
 namespace CoreEscuela.Entidades
 {
-    public class Asignatura
+    public class Asignatura: ClaseEscuelaBase
     {
-        public string uniqueID { get; private set; }
-        public string Nombre { get; set; }
         public List<Alumno> Alumnos {get; set;}
         public double Evaluacion {get; set;}
-
-        public Asignatura() => uniqueID = Guid.NewGuid().ToString();
     }
 }
